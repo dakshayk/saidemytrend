@@ -22,7 +22,7 @@
 
          steps {
             WithSonarQubeEnv('dakshayk-sonar-server') {
-               sh "${ScannerHome}/bin/sonar-scanner
+               sh "${scannerHome}/bin/sonar-scanner"
             } 
          }
        }  
