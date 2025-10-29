@@ -21,7 +21,7 @@
          }
 
          steps {
-            WithSonarQubeEnv('dakshayk-sonarqube-server') {
+            WithSonarQubeEnv('dakshayk-sonar-server') {
                sh "${ScannerHome}/bin/sonar-scanner
             } 
          }
